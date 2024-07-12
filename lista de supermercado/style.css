@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+body{
+    background-color: rgb(105, 104, 103);
+}
+.lista-cadastro{
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.lista-cadastro input[type = text]{
+    flex:1;
+    height: 40px;
+    width: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    border: solid 2px;
+    border-color: blueviolet;
+    border-radius: 20px;
+
+}
+.lista-cadastro input[type = number]{
+    flex:1;
+    height: 40px;
+    width: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    border: solid 2px;
+    border-color: blueviolet;
+    border-radius: 20px;
+}
+
+.lista-produtos-single{
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.lista-produtos-single h3{
+    flex: 1;
+    padding: 0 20px;
+    color: white;
+    
+}
+h3.price-produto{
+    text-align: right;
+}
+h3.price-produto > span{
+    background-color: blueviolet;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+.lista-cadastro input[type = submit]{
+    border-radius:  10px;
+    background-color: green;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+.lista-cadastro > button{
+    border-radius:  10px;
+    background-color:red;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+.soma-produto {
+    color: white;
+    text-align: center;
+}
